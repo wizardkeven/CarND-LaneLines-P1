@@ -18,7 +18,16 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+#### 1. First version for solidWhiteRight and solidYellowLeft
+
+The first version for my pipeline consisted of 5 steps:
+*Convert the images to grayscale
+*Apply Gaussian smoothing
+*Apply Canny for color filter
+*Apply region selection
+*Run Hough on edge detected image
+*Create a "color" binary image to combine with line image
+
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
